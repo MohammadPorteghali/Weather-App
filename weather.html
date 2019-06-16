@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>WEATHER APP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTwcjWptz_Yz66V888sMUnPl8T2HYWwkXhOitoBwnw2gAK3ujt">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poiret+One|Quicksand" rel="stylesheet">
+  </head>
+  <body>
+    <div class="bg">
+        <div class="offset-11 logo2">
+            <i class="fas fa-cloud"></i>
+            <p class="logo_p2">weather</p>
+        </div>
+      <form method="GET">
+        <div class="inputBorder col-4" id="searchBox">
+          <p class="labale">Enter the name of the city you want to see its temperature :</p>
+          <input class="form-control" id="cityName" type="text" placeholder="City name" aria-label="Search">
+          <div class="input-group-append searchLogo">
+              <button onclick="weatherShow(event)" type="button" class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey" aria-hidden="true"></i></button>
+          </div> 
+          <div class="alert alert-danger mt-3 p-2 text-center alertCity col-12" role="alert">
+              Please check city name !
+          </div>
+        </div>
+      </form>
+      <div class="weatherDet">
+        <span class="degree"></span></br>
+        <span class="weatherS"></span>
+      </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

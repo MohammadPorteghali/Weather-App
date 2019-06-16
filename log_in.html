@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WEATHER APP | Log In</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTwcjWptz_Yz66V888sMUnPl8T2HYWwkXhOitoBwnw2gAK3ujt">
+  </head>
+  <body>
+    <div class="bg">
+      <div id="logo">
+          <i class="fas fa-cloud"></i>
+          <p class="logo_p">weather</p>
+      </div>
+      <form method="POST" action="weather.html" id="logIn">
+        <div class="col-3 center">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
+          </div>
+          <button type="button" id="bgPic_log" class="btn col-12" onclick="logIn(event)">Log In</button>
+          <button type="button" id="bgPic_sign" class="btn col-12 mt-2" onclick="register(event)">Sign Up</button>
+            <div class="alert alert-danger mt-3 p-2 text-center alertComplete" role="alert">
+                Please comlete form !
+            </div>
+        </div>
+      </form>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

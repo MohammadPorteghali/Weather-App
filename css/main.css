@@ -1,0 +1,175 @@
+body, html {
+    height: 100%;
+  }
+.bg { 
+    background-image: url('https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.bg_rain { 
+    background-image: url('https://images.unsplash.com/photo-1486016006115-74a41448aea2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.bg_snow { 
+    background-image: url('https://media.9news.com/assets/KUSA/images/599907827/599907827_750x422.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.bg_clear { 
+    background-image: url('https://repositpower.com/wp-content/uploads/2016/09/clear-sky.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.bg_cloud { 
+    background-image: url('https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/epic-grey-cloud-and-sky-texture-2.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.center {
+    margin: 15% 21%;
+    position: absolute;
+    z-index: 2;
+  }
+#bgPic_log{
+    background-color: #4fffb8;
+    border: none;
+    color: darkblue;
+}
+#bgPic_sign{
+    background-color: #4fffe4;
+    border: none;
+    color: darkblue;
+}
+#logo{
+    font-size: 7rem;
+    position: absolute;
+    color: skyblue;
+    margin: 15% 45%;
+    position: absolute;
+}
+.logo_p{
+    font-size: 39px;
+    margin-top: -32px;
+}
+.alertComplete{
+    display: none;
+}
+.modal{
+    display: none;
+}
+.logo2{
+    font-size: 3rem;
+    position: absolute;
+    color: skyblue;
+}
+.logo2_rain{
+    font-size: 3rem;
+    position: absolute;
+    color: #64fff1;
+}
+.logo2_snow{
+    font-size: 3rem;
+    position: absolute;
+    color: #1d00c2;
+}
+.logo_p2{
+    font-size: 17px;
+    margin-top: -12px;
+}
+.inputBorder input[type=text] {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+}
+.inputBorder_rain input[type=text] {
+    border: 1px solid#64fff1;
+    box-shadow: 0 0 0 1px #64fff1;
+}
+.inputBorder_snow input[type=text] {
+    border: 1px solid #1d00c2;
+    box-shadow: 0 0 0 1px #1d00c2;
+}
+#searchBox{
+    position: absolute;
+    margin: 17% 0 0 5%;
+}
+.searchLogo{
+    float: right;
+    margin-top: -38px;
+}
+#basic-text1{
+    padding: 10px;
+}
+.degree{
+    font-family: 'Poiret One', cursive;
+    float: left;
+    font-size: 6rem;
+    color: darkcyan;
+}
+.degree_rain{
+    font-family: 'Poiret One', cursive;
+    float: left;
+    font-size: 6rem;
+    color: #64fff1;
+}
+.degree_snow{
+    font-family: 'Poiret One', cursive;
+    float: left;
+    font-size: 6rem;
+    color: #1d00c2;
+}
+.labale{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #4dd0e1;
+}
+.labale_rain{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #64fff1;
+}
+.labale_snow{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #1d00c2;
+}
+.weatherS{
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    font-size: 3rem;
+    color: darkcyan;
+}
+.weatherS_rain{
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    font-size: 3rem;
+    color: #64fff1;
+}
+.weatherS_snow{
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    font-size: 3rem;
+    color: #1d00c2;
+}
+.weatherDet{
+    margin: 13% 0 0 58%;
+    position: absolute;
+}
+.alertCity{
+    display: none;
+}
